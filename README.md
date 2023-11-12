@@ -1,7 +1,7 @@
 ## SOLID Principles Guide
 
 ### Overview
-SOLID is a mnemonic acronym representing five key principles in object-oriented programming, crucial for creating maintainable, understandable, and flexible software. These principles are【8†source】【14†source】【24†source】:
+SOLID is a mnemonic acronym representing five key principles in object-oriented programming, crucial for creating maintainable, understandable, and flexible software. These principles are [1] [2] [3]:
 1. **S**ingle Responsibility Principle
 2. **O**pen/Closed Principle
 3. **L**iskov Substitution Principle
@@ -137,6 +137,10 @@ public class DataProcessor {
 ---
 
 ### Conclusion
-Ad
+Adhering to the SOLID principles fosters a robust, maintainable, and scalable software design. These principles guide developers in creating efficient and resilient object-oriented systems.
 
-hering to the SOLID principles fosters a robust, maintainable, and scalable software design. These principles guide developers in creating efficient and resilient object-oriented systems.
+### References
+
+[1] https://www.baeldung.com/solid-principles  
+[2] https://stackify.com/solid-design-principles   
+[3] https://www.jrebel.com/blog/solid-principles-in-java   
