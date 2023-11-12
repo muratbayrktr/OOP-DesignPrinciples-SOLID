@@ -10,12 +10,12 @@ SOLID is a mnemonic acronym representing five key principles in object-oriented 
 
 ### 1. Single Responsibility Principle (SRP)
 #### Definition
-A class should have one, and only one, reason to change. This principle focuses on ensuring that a class addresses a single functionality or responsibility【9†source】【16†source】.
+A class should have one, and only one, reason to change. This principle focuses on ensuring that a class addresses a single functionality or responsibility.
 
 #### Benefits
 - **Easier Testing**: Fewer test cases are needed for a class with a single responsibility.
 - **Lower Coupling**: Reduces dependencies on other classes.
-- **Better Organization**: Simplifies understanding and maintaining code【9†source】【18†source】【19†source】.
+- **Better Organization**: Simplifies understanding and maintaining code.
 
 #### Example
 ```java
@@ -35,11 +35,11 @@ public class BookPrinter {
     }
 }
 ```
-Here, `Book` handles data-related functionalities, whereas `BookPrinter` is responsible for printing operations, adhering to SRP【9†source】.
+Here, `Book` handles data-related functionalities, whereas `BookPrinter` is responsible for printing operations, adhering to SRP.
 
 ### 2. Open/Closed Principle (OCP)
 #### Definition
-Classes should be open for extension but closed for modification. This principle aims to allow classes to be extended without modifying existing code, thus preventing potential bugs【10†source】.
+Classes should be open for extension but closed for modification. This principle aims to allow classes to be extended without modifying existing code, thus preventing potential bugs.
 
 #### Benefits
 - **Enhanced Flexibility**: Easily extend class functionalities.
@@ -60,7 +60,7 @@ public class ElectricGuitar extends Guitar {
 
 ### 3. Liskov Substitution Principle (LSP)
 #### Definition
-Derived classes must be substitutable for their base classes. This principle ensures that a subclass can replace its superclass without affecting the program's correctness【25†source】.
+Derived classes must be substitutable for their base classes. This principle ensures that a subclass can replace its superclass without affecting the program's correctness.
 
 #### Benefits
 - **Improved Code Reusability**: Ensures subclasses fulfill the contract of the superclass.
@@ -80,7 +80,7 @@ Here, `Duck` can replace `Bird` without altering the behavior expected from `Bir
 
 ### 4. Interface Segregation Principle (ISP)
 #### Definition
-Clients should not be forced to depend on interfaces they do not use. This principle focuses on creating specific interfaces rather than a single, general-purpose interface【25†source】.
+Clients should not be forced to depend on interfaces they do not use. This principle focuses on creating specific interfaces rather than a single, general-purpose interface.
 
 #### Benefits
 - **Reduced Overhead**: Clients only use the interfaces relevant to them.
@@ -109,7 +109,7 @@ public class AllInOnePrinter implements Printable, Scannable {
 
 ### 5. Dependency Inversion Principle (DIP)
 #### Definition
-High-level modules should not depend on low-level modules. Both should depend on abstractions. This principle aims to reduce the direct dependencies among classes【25†source】.
+High-level modules should not depend on low-level modules. Both should depend on abstractions. This principle aims to reduce the direct dependencies among classes.
 
 #### Benefits
 - **Enhanced Modularity**: Easier to modify and test classes independently.
